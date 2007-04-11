@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Project SYSTEM "Project-3.8.dtd">
+<!-- Project file for project kix -->
+<!-- Saved: 2007-04-10, 17:55:05 -->
+<!-- Copyright (C) 2007 Ahmet Emre Aladağ,  -->
+<Project version="3.8">
+  <ProgLanguage mixed="0">Python</ProgLanguage>
+  <UIType>Qt</UIType>
+  <Description></Description>
+  <Author>Ahmet Emre Aladağ</Author>
+  <EmaIl></EmaIl>
+  <Sources>
+    <Source>
+      <Name>about.py</Name>
+    </Source>
+    <Source>
+      <Name>deneme.py</Name>
+    </Source>
+    <Source>
+      <Name>main.py</Name>
+    </Source>
+  </Sources>
+  <Forms>
+  </Forms>
+  <Translations>
+  </Translations>
+  <Interfaces>
+  </Interfaces>
+  <Others>
+  </Others>
+  <MainScript>
+    <Dir>kix</Dir>
+    <Name>main.py</Name>
+  </MainScript>
+  <Vcs>
+    <VcsType>None</VcsType>
+  </Vcs>
+  <FiletypeAssociations>
+    <FiletypeAssociation pattern="*.ui.h" type="FORMS" />
+    <FiletypeAssociation pattern="*.ptl" type="SOURCES" />
+    <FiletypeAssociation pattern="*.idl" type="INTERFACES" />
+    <FiletypeAssociation pattern="*.ui" type="FORMS" />
+    <FiletypeAssociation pattern="*.py" type="SOURCES" />
+  </FiletypeAssociations>
+</Project>

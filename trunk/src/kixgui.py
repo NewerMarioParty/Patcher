@@ -216,5 +216,6 @@ class Form1(QMainWindow):
         return qApp.translate("Form1",s,c)
     
     def closeEvent(self, QCloseEvent):
-	self.app.quit()
-
+	 self.deleteLater()
+	 #app.quit() 
+	 #I can not understand why does this not work? Check out the main file(kixdelta)

@@ -21,11 +21,18 @@ from kixgui import * #Our Main Window
 from about import about #Our About Dialog
 import sys
 
+class SuperMan(Form1):
+   def __init__(self, parent=None, name=None):
+       Form1.__init__(self, parent, name)
+
+   def slotQuit(self):
+       self.deleteLater()
+       guiApp.quit()
+
 
 if __name__ == "__main__":
-	app = KApplication(sys.argv,"kiXdelta")
-	f = Form1(app)
+	app = KApplication(sys.argv,"KDE Uygulamasi")
+	f = SuperMan()
 	app.setMainWidget(f)
 	f.show()
-	app.exec_loop()
-	app.quit()
+	sys.exit(app.exec_loop())
